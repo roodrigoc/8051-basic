@@ -26,7 +26,7 @@ SO BASIC para a placa chinesa YL-39 equipada com o microcontrolador STC89C52RC.
 | Placa | `DISP n` (display de 4 segmentos) | `DISP 5*5` |
 | Placa | `BEEP [ms[,hz]]` (padrão 100 ms, 2000 Hz; volume = `V` do `PLAY`) | `BEEP 300, 440` |
 | Placa | `PAUSE ms` | `PAUSE 500` |
-| Placa | `PLAY` | `PLAY "T150L8CCGGAAG4"` |
+| Placa | `PLAY` | `PLAY "CDEFRFFRCDCDRDDRCGFEREERCDEF"` |
 | Placa | `MORSE` | `MORSE "SOS"` |
 | Placa | `POKE end, valor` e `PEEK(end)` | `POKE 144, 0` acende os LEDs |
 | Funções | `RND(n)` = 1..n, `ABS(n)`, `KEY(n)` = 1 se Kn (3–6) apertado | `IF KEY(4) BEEP` |
