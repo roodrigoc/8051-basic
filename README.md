@@ -6,8 +6,9 @@
 <br> 
 
 SO BASIC para a placa chinesa YL-39 equipada com o microcontrolador STC89C52RC.
+Para mais informações [veja uma rápida demonstração clicando aqui...](./yl39-8051.mp4)
 
-## Comandos suportados:
+## Comandos suportados: 
 
 
 | Grupo | Comando | Exemplo |
