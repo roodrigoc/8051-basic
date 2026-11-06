@@ -53,7 +53,7 @@ SO BASIC para a placa chinesa YL-39 equipada com o microcontrolador STC89C52RC.
 
 - **Estado:** oitava, duração, andamento e volume continuam valendo entre `PLAY`s; `RUN` volta ao padrão.
 - **Canais 2 e 3:** `PLAY "A","B","C"` é aceito, mas só o primeiro toca.
-- **Exemplo:** `PLAY "T150L804CCGGAAG4FFEEDDC4"` (Brilha, brilha, estrelinha).
+- **Exemplo:** `PLAY "CDEFRFFRCDCDRDDRCGFEREERCDEF"`
 
 ## PEEK e POKE
 
