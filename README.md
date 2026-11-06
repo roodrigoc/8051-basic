@@ -68,3 +68,5 @@ Endereços 0–127 são a RAM interna (onde o próprio BASIC guarda dados: escre
 | TL0 / TL1 / TH0 / TH1 | 138 / 139 / 140 / 141 | | |
 
 > No 8051, um SFR só é acessível por instrução com o endereço fixo no código; por isso cada SFR da lista tem o seu trecho de código próprio e não há acesso a um SFR qualquer.
+
+<!-- . -->
