@@ -3,7 +3,6 @@
 #       make -f Makefile info    -> identifica o microcontrolador
 #       make -f Makefile clean   -> apaga os arquivos gerados
 PORT ?= /dev/ttyUSB0
-export PYTHONPATH := $(CURDIR)/tools/stcgal
 
 all: basic.hex
 
@@ -15,10 +14,10 @@ basic.hex: basic.ihx
 	packihx basic.ihx > basic.hex
 
 flash: basic.hex
-	python3 -m stcgal -P stc89 -p $(PORT) basic.hex
+	stcgal -P stc89 -p $(PORT) basic.hex
 
 info:
-	python3 -m stcgal -P auto -p $(PORT)
+	stcgal -P auto -p $(PORT)
 
 clean:
 	rm -f basic.ihx basic.hex basic.lst basic.rel basic.rst basic.sym basic.map basic.lk
