@@ -1,7 +1,7 @@
-# Uso:  make -f Makefile         -> compila basic.hex
-#       make -f Makefile flash   -> grava basic.hex (desligue/ligue a placa quando pedir)
-#       make -f Makefile info    -> identifica o microcontrolador
-#       make -f Makefile clean   -> apaga os arquivos gerados
+# Uso:  make         -> compila basic.hex
+#       make flash   -> grava basic.hex (desligue/ligue a placa quando pedir)
+#       make info    -> identifica o microcontrolador
+#       make clean   -> apaga os arquivos gerados
 PORT ?= /dev/ttyUSB0
 
 all: basic.hex
