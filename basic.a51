@@ -223,7 +223,7 @@ inicio:
         lcall   puts_c
         ljmp    main_loop
 MSG_TITULO:
-        .ascii  "\r\n8051 TINY BASIC (ASM) - YL-39\r\n"
+        .ascii  "\r\n8051-BASIC - YL-39\r\n"
         .db     0
 MSG_OK:
         .ascii  "OK\r\n"
