@@ -30,7 +30,7 @@ Para mais informações [veja uma rápida demonstração clicando aqui...](./yl3
 | Placa | `PLAY` | `PLAY "CDEFRFFRCDCDRDDRCGFEREERCDEF"` |
 | Placa | `MORSE` | `MORSE "SOS"` |
 | Placa | `POKE end, valor` e `PEEK(end)` | `POKE 144, 0` acende os LEDs |
-| Funções | `RND(n)` = 1..n, `ABS(n)`, `KEY(n)` = 1 se Kn (3–6) apertado | `IF KEY(4) BEEP` |
+| Funções | `RND(n)` = 1..n, `ABS(n)`, `KEY(n)` = 1 se Kn (3–6) apertado | `10 BEEP KEY(4)*100: GOTO 10` |
 | Operadores | `+ - * /`, `MOD` (ou `%`), `AND OR XOR NOT`, `= <> < <= >=`, parênteses | `? 14 MOD 5, 3 AND 6` |
 
 ### Notas gerais
